@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<form method="POST" action="test.php">
+  Amount of:<br>
+  1.hamburgers <input type="number" name="hamburger" step="1" maxlength="5" min="0"/>($5)<br>
+  2.chocolate milkshake <input type="number" name="choc_milkshake" size="5" min="0" step="1"/>($2)<br>
+  3.cola <input type="number" name="cola" size="5" step="1" min="0"/>($1)<br>
+  <br/>
+  <label> left a pre-tax tip of 15%<input type="checkbox" name="tip" value="value_checkbox" checked/></label>
+  <br>
+  The sales tax-rate is 10%<br>
+  <button type="submit">Calculate</button>
+</form>
+
+</body>
+</html>
